@@ -1,0 +1,19 @@
+{
+    "name": "root/e-go_bike-side",
+    "autoload": {
+        "psr-4": {
+            "Root\\EGoBikeSide\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quentin Pahaut",
+            "email": "quentinpahaut@gmail.com"
+        }
+    ],
+    "require": {
+        "hyperthese/php-serial": "^1.0",
+        "curl/curl": "^1.1",
+        "symfony/var-dumper": "^5.4"
+    }
+}
